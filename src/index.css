@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+html,
+body,
+#root {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Hide / transparent scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  height: 6px;
+}
+
+.no-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.no-scrollbar::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.no-scrollbar {
+  scrollbar-width: none; /* Firefox */
+}
